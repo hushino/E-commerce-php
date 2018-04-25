@@ -12,4 +12,5 @@
             <a class="nav-item nav-link" href="/posts/create">Posts create</a>
         </div>
     </div>
+
 </nav>
