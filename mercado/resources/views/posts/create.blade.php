@@ -17,10 +17,10 @@
 
 
 
-    <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+    {{--<script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
 
     <script>
         CKEDITOR.replace( 'editor1' );
     </script>
-
+--}}
 @endsection
