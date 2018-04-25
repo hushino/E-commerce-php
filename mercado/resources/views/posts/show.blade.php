@@ -8,7 +8,7 @@
         {!! $post->body !!}
     </div>
     <hr>
-    <small>Publish at {{$post->created_at}}</small>
+    <small>Publish at {{$post->created_at}} by {{$post->user->name}}</small>
     <hr>
     <a href="/posts/{{$post->id}}/edit" class="btn btn-info">Edit</a>
     {!!Form::open(['action' => ['PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'pull-right'])!!}

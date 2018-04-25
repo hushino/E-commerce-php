@@ -18,9 +18,9 @@ class DashboardController extends Controller
     }
 
     /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
+     * $user = auth()->user();
+    return view('home')->with('user', $user);
+    and then, in dashboard.blade.php, just use $user->posts to access posts
      */
     public function index()
     {
