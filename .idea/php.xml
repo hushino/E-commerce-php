@@ -73,6 +73,8 @@
       <path value="$PROJECT_DIR$/mercado/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/mercado/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/mercado/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/mercado/vendor/twbs/bootstrap" />
+      <path value="$PROJECT_DIR$/mercado/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

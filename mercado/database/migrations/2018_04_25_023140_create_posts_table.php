@@ -18,7 +18,7 @@ class CreatePostsTable extends Migration
             $table->string('title',80);
             $table->mediumText('body');
             $table->timestamps();
-        });
+    });
     }
 
 
