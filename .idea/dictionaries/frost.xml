@@ -2,6 +2,7 @@
   <dictionary name="frost">
     <words>
       <w>ckeditor</w>
+      <w>csrf</w>
       <w>hola</w>
       <w>jumbotron</w>
       <w>navbar</w>
