@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/mercado/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/mercado/tests" isTestSource="true" packagePrefix="Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/mercado/vendor/caffeinated/shinobi" />
       <excludeFolder url="file://$MODULE_DIR$/mercado/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/mercado/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/mercado/vendor/doctrine/inflector" />

@@ -162,6 +162,7 @@ return [
 
         //Custom provider
         Collective\Html\HtmlServiceProvider::class,
+        Caffeinated\Shinobi\ShinobiServiceProvider::class,
     ],
 
     /*

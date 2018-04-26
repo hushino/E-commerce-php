@@ -76,6 +76,7 @@
       <path value="$PROJECT_DIR$/mercado/vendor/twbs/bootstrap" />
       <path value="$PROJECT_DIR$/mercado/vendor/laravelcollective/html" />
       <path value="$PROJECT_DIR$/mercado/vendor/unisharp/laravel-ckeditor" />
+      <path value="$PROJECT_DIR$/mercado/vendor/caffeinated/shinobi" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
