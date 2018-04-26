@@ -16,7 +16,6 @@
                         You are logged in!
                     </div>
                     <div class="panel-body">
-
                         <h3>Yours items</h3>
                         @if(count($posts) > 0)
                         <table class="table table-striped">
