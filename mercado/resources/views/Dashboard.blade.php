@@ -24,7 +24,7 @@
                                 <th></th>
                                 <th></th>
                             </tr>
-                            @foreach($posts as $post)
+                            @foreach($posts->reverse() as $post)
                                 <tr>
                                     <td>{{$post->title}}</td>
                                     <td><a href="/posts/{{$post->id}}/edit" class="btn btn-dark">Edit</a> </td>

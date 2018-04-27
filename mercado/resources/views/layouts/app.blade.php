@@ -50,7 +50,7 @@
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                             <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                         @else
-                            @can('users.admin')
+
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
@@ -62,6 +62,9 @@
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
+                                    @can('users.admin')
+                                        <a class="dropdown-item" href="/admin">Admin Panel</a>
+                                    @endcan
                                     <a class="dropdown-item" href="/dashboard">Dashboard</a>
                                     <a class="dropdown-item" href="/posts/create">Create Item</a>
 
@@ -70,7 +73,7 @@
                                     </form>
                                 </div>
                             </li>
-                                @endcan
+
                         @endguest
                     </ul>
                 </div>
