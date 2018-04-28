@@ -16,7 +16,8 @@
 });*/
 
 //la ruta y el permiso son cosas diferentes
-Route::get('/', 'PagesController@index');
+//Route::get('/', 'PagesController@index');
+Route::get('/', 'PostsController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 
